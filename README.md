@@ -2,7 +2,7 @@
 
 
 
-First of all, we will write the i18n attribute on the elements in Angular and write the translation in the Description
+### First of all, we will write the i18n attribute on the elements in Angular and write the translation in the Description
 
 < th scope="col" i18n="მიმართულება">Directions< / th >
 
@@ -10,10 +10,16 @@ First of all, we will write the i18n attribute on the elements in Angular and wr
 
 next step is extract resources from html files into .xlf file
 
-ng extract-i18n --output-path src/locale
+`ng extract-i18n --output-path src/locale`
+
+![image](https://github.com/LashaMorgoshia/Xlif/assets/98417874/490f401c-db2f-4d57-b928-7a1b1c0858ce)
+
 
 a messages.xlf file will be created
 
 then we run this command
 
-dotnet c:/xlif/xlif.dll src/locale/messages.xlf 'ka'
+`dotnet c:/xlif/xlif.dll src/locale/messages.xlf 'ka'`
+
+![image](https://github.com/LashaMorgoshia/Xlif/assets/98417874/7a4197ea-f180-4bfe-87f0-2fa939117500)
+

@@ -11,13 +11,14 @@
 next step is extract resources from html files into .xlf file
 
 `ng extract-i18n --output-path src/locale`
+` ng extract-i18n  --build-target=MY_APP:build --output-path=src/locale`
 
 ![image](https://github.com/LashaMorgoshia/Xlif/assets/98417874/490f401c-db2f-4d57-b928-7a1b1c0858ce)
 
 
-a messages.xlf file will be created
+messages.xlf will be created
 
-then we run this command
+then run this:
 
 `dotnet c:/xlif/xlif.dll src/locale/messages.xlf 'ka'`
 
